@@ -1,0 +1,16 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+/* Adjust the positioning and styling as needed */
+
+.product-item {
+  position: relative;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product-item:hover .overlay {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}

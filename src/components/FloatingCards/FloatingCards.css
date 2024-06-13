@@ -1,0 +1,33 @@
+.flo {
+  display: inline-flex;
+  gap: 20px;
+  margin-top: 8% !important;
+}
+
+@media (max-width: 992px) {
+  .flo {
+    flex-direction: row; /* Display cards in a row for medium-sized screens */
+    align-items: center;
+    gap: 30px; /* Increase gap for better spacing in row layout */
+  }
+}
+
+@media (max-width: 768px) {
+  .flo {
+    flex-direction: row; /* Display cards in a row for small-sized screens */
+    align-items: center;
+    gap: 20px; /* Further adjust gap for smaller screens */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .flo {
+    flex-direction: column; /* Display cards in a column for very small screens */
+    align-items: center;
+    gap: 15px; /* Adjust gap for very small screens */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

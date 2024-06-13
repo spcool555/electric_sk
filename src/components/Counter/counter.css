@@ -1,0 +1,21 @@
+/* counter.css */
+.border {
+  border-right: 2px solid black; /* Add border */
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+}
+
+.span {
+  font-size: 25px;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 768px) {
+  .border {
+    width: 100%; /* Make width 100% for responsiveness */
+    border-right: none; /* Remove border */
+    border-bottom: 2px solid black; /* Add bottom border */
+  }
+}
