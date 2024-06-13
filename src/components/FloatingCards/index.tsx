@@ -1,6 +1,6 @@
 import Cards from '@/app/Cards'
 import React from 'react'
-import './floatingCards.css'
+import './index.css'
 const FloatingCards =()=> {
   return (
     <div className='flo'>
